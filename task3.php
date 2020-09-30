@@ -1,12 +1,12 @@
 <?php
 
-$k = 5;
+$k = 5; //Искомое число
 $array = [3, 6, 7, 1, 5, 2, 8, 11, 15, 4]; //Массив
 
 $array_size = count($array); //Количество элементов в массиве
-for($i = 0; $i < $array_size; $j++) { //Массив замена индексов по меньшему элементу
+for($i = 0; $i < $array_size; $i++) { //Массив замена индексов по меньшему элементу
     for ($j =0; $j < $array_size; $j++) {
-          if ($array[$i] < $array[$j]){
+        if ($array[$i] < $array[$j]){
             $tem = $array[$i];
             $array[$i] = $array[$j];
             $array[$j] = $tem;
