@@ -7,7 +7,7 @@ $array_size = count($array); //Количество элементов в мас
 for($i = 0; $i < $array_size; $j++) { //Массив замена индексов по меньшему элементу
     for ($j =0; $j < $array_size; $j++) {
           if ($array[$i] < $array[$j]){
-            $tem = $array[$j];
+            $tem = $array[$i];
             $array[$i] = $array[$j];
             $array[$j] = $tem;
         }
@@ -24,9 +24,9 @@ foreach($array as $index => $value);
     }
 }
 
-for ($i = 0; $i < count($i); $i++) {
+for ($i = 0; $i < count($n); $i++) {
     echo $array[$i] . " "; // Выводим отсортированнный массив
 }
 
-echo "nK index = " . $k_index; // Выводим искомое число
+echo "\nK index = " . $k_index; // Выводим искомое число
 
