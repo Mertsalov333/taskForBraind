@@ -27,7 +27,7 @@ $endText ="<a href='{$articleLink}'>{$endText}...</a>";//делаем ссылк
 
 $wordsArr[] = $endText;// помещаем финальную фразу
 
-print implode(' ', $wordsArr);//вывод
+print implode(' ', $wordsArr);
 
 // Проблемы, которые могут возникнуть:
 // 200 символов могут обрезать слово не по правилам русского языка
